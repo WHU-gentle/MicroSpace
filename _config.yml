@@ -28,7 +28,7 @@ permalink: pretty
 # nav settings
 nav:
   首页: '/'
-  标签: '/tags.html'
+  标签: 'tags.html'
   时间线: '/timeline.html'
   关于博主: '/about.html'
   友情链接: '/friendLink.html'
@@ -37,7 +37,7 @@ nav:
 author: true
 name: '武涵'
 NickName: 'WUH-gentle'
-webtitle: 'your awesome webtitle'
+webtitle: 'MicroSpace'
 bio: 'your awesome bio'
 about: true
 aboutyou: '武汉大学计算机科学与技术专业大三在读本科生'
