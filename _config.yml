@@ -28,8 +28,8 @@ permalink: pretty
 # nav settings
 nav:
   首页: '/'
-  标签: 'tags.html'
-  时间线: '/timeline.html'
+  标签: '../tags.html'
+  时间线: './timeline.html'
   关于博主: '/about.html'
   友情链接: '/friendLink.html'
 
