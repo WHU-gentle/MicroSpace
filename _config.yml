@@ -87,16 +87,7 @@ social-share-items: ['qq', 'wechat', 'weibo']
 
 # 百度统计 在baidu-url里填写自己相关的url代码
 baidu: true
-baidu-url: '<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?8c788176665ee1f6e84a201ad3932c1f";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-'
+baidu-url: '8c788176665ee1f6e84a201ad3932c1f'
 # 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
 google: false
 google-ID: ''
