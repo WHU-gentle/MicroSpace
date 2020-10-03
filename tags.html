@@ -4,6 +4,7 @@ title: 标签
 page-title: tags
 home-title: Let's pick something.
 description:
+permalink: /tags.html
 ---
 
 {% include header.html %}
@@ -20,7 +21,7 @@ description:
         </li>
         {% for tag in site.tags %}
         <li>
-            <span class="tag-name" id="{{ tag[0] }}">「{{ tag[0] }}」</span>
+            <span class="tag-name" id="{{ tag[0] }}">「{{ tag[0] }}〝</span>
             {% for post in tag[1] %}
             <a class="tag-post" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
             {% endfor %}
