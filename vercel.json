@@ -1,5 +1,8 @@
 {
+    "version": 2,
     "routes": [
+        { "handle": "filesystem" },
+        { "src": "/", "dest": "/index.html" },
         { "src": "/about.html", "dest": "/about.html" },
         { "src": "/friendLink.html", "dest": "/friendLink.html" },
         { "src": "/tags.html", "dest": "/tags.html" },
