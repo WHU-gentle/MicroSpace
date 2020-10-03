@@ -4,16 +4,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MicroSpace
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "https://microspace.vercel.app" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+email: 1694272297@qq.com
+#description: >- # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+#baseurl: "https://microspace.vercel.app" # the subpath of your site, e.g. /blog
+url: "https://microspace.vercel.app" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  WHU-gentle
-permalink: pretty
 
 # nav settings
 nav:
@@ -28,9 +26,9 @@ author: true
 name: '武涵'
 NickName: 'WUH-gentle'
 webtitle: 'MicroSpace'
-bio: 'your awesome bio'
+#bio: 'your awesome bio'
 about: true
-aboutyou: '武汉大学计算机科学与技术专业大三在读本科生'
+aboutyou: '武汉大学计算机科学与技术专业大四在读本科生'
 portraits: '/assets/profile.jpeg' 
 
 # SNS
@@ -89,7 +87,16 @@ social-share-items: ['qq', 'wechat', 'weibo']
 
 # 百度统计 在baidu-url里填写自己相关的url代码
 baidu: true
-baidu-url: ''
+baidu-url: '<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8c788176665ee1f6e84a201ad3932c1f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+'
 # 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
 google: false
 google-ID: ''
