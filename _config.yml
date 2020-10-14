@@ -66,20 +66,21 @@ plugins:
 # 友情链接
 friends:
   jekyll: 'https://www.jekyll.com.cn/'
+  Jerry🐀: 'http://60.205.250.231:4000/'
 
 # 评论 最佳体验 在disqus、livere和Gitment之间三选一
 # disqus 评论
 disqus: false
 disqus_url: '' # https://abc.disqus.com/embed.js
 # 来必力评论
-livere: true
+livere: false
 livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
 # Gitment评论 OAuth Application
-Gitment: false
+Gitment: true
 Gitment_owner: 'WHU-gentle'  # github用户名
-Gitment_repo: ''  # github博客存放的仓库名
-client_id: ''  # 注册 OAuth Application 后获得的 client_id
-client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
+Gitment_repo: 'MicroSpace'  # github博客存放的仓库名
+client_id: '631f8e7911669d497388'  # 注册 OAuth Application 后获得的 client_id
+client_secret: '0dece1f424f7a0bd92e9f405f045b5e52870587e'  # 注册 OAuth Application 后获得的 client_secret
 
 # Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
 social-share: true
