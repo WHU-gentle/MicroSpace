@@ -75,12 +75,14 @@ disqus_url: '' # https://abc.disqus.com/embed.js
 # 来必力评论
 livere: false
 livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
-# Gitment评论 OAuth Application
-Gitment: true
-Gitment_owner: 'WHU-gentle'  # github用户名
-Gitment_repo: 'MicroSpace'  # github博客存放的仓库名
-client_id: '631f8e7911669d497388'  # 注册 OAuth Application 后获得的 client_id
-client_secret: '0dece1f424f7a0bd92e9f405f045b5e52870587e'  # 注册 OAuth Application 后获得的 client_secret
+# gitalk评论 OAuth Application
+gitalk: true
+gitalk_clientID: '631f8e7911669d497388'
+gitalk_Secret: '0dece1f424f7a0bd92e9f405f045b5e52870587e'
+gitalk_repo: 'MicroSpace'
+gitalk_owner: 'WHU-gentle'
+gitalk_admin: 'WHU-gentle'
+distractionFreeMode: true
 
 # Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
 social-share: true
