@@ -29,6 +29,12 @@
       </div>
     {% endif %}
   {% endif %}
+  
+  <script src="/assets/js/scrollnav.min.umd.js"></script>
+  <script>
+    const ct = document.getElementsByClassName('markdown-body fadeInUp animated');  //".post-content"指向文章内容所在的div，需根据实际情况修改
+    scrollnav.init(ct);
+  </script>
 
   <!-- 文章内容 -->
   {{ page.content }}
@@ -66,5 +72,6 @@
     }
 </script>
 <script src="/assets/js/main.js"></script>
+
 </body>
 </html>

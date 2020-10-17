@@ -38,6 +38,7 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
   weixin: '/assets/wechat.png' # 你的微信二维码存放的地址
   qq: '/assets/qq.jpg' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   github: 'https://github.com/WHU-gentle'
+  zhihu: 'https://www.zhihu.com/people/whu-gentle'
   #Codepen: ''
   #weibo: ''
   #instagram: ''
@@ -45,7 +46,6 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
   #Dribbble: ''
   #Facebook: ''
   #Google: ''
-  #zhihu: ''
   #juejin: ''
   #twitch: ''
 
@@ -82,11 +82,11 @@ gitalk_Secret: '0dece1f424f7a0bd92e9f405f045b5e52870587e'
 gitalk_repo: 'MicroSpace'
 gitalk_owner: 'WHU-gentle'
 gitalk_admin: 'WHU-gentle'
-distractionFreeMode: true
+distractionFreeMode: false
 
 # Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
 social-share: true
-social-share-items: ['qq', 'wechat', 'weibo']
+social-share-items: ['qq', 'wechat', 'weibo', 'qzone']
 
 # 百度统计 在baidu-url里填写自己相关的url代码
 baidu: true
@@ -97,14 +97,3 @@ google-ID: ''
 
 # 博客头信息备选颜色（该部分在站点中不充当站点变量，将其写在post的头信息中用来充当页面变量）
 color: rgb(154,133,255) rgb(255,90,90) rgb(255,210,32) rgb(98,170,255)
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
