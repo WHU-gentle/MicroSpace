@@ -131,3 +131,9 @@
     display:block;
   }
 }
+
+@media screen and ( max-width: 1400px){
+  .scroll-nav{
+    display: none;
+  }
+}

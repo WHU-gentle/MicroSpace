@@ -499,7 +499,7 @@ a{
 .markdown-body{
   max-width: 800px;
   height: auto;
-  margin: -155px auto 50px auto;
+  margin: auto auto auto auto;
   background-color: white;
   padding: 40px 30px;
   -webkit-box-sizing: border-box;
@@ -549,7 +549,7 @@ a{
 /*评论*/
 .post-footer-item{
   margin:0 auto;
-  width:720px;
+  width:800px;
 }
 .comment{
   margin-top: 30px;
@@ -569,7 +569,7 @@ a{
 }
 
 .post-top{
-  height: 550px;
+  height: 400px;
   width: 100%;
   /*background-color: #9A85FF;*/
   background-image: url(/assets/lineart.png);

@@ -107,3 +107,9 @@
        url("../fonts/DankMonoNormal/DankMonoNormal.eot") format("embedded-opentype"),
        url("../fonts/DankMonoNormal/DankMonoNormal.svg") format("svg");
 }
+
+@font-face {
+     font-family: "scrollNav";
+     src: url("../fonts/scrollNav/simhei.ttf") format("truetype");
+     src: url("../fonts/scrollNav/times.ttf") format("truetype");
+}

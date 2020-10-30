@@ -16,6 +16,9 @@
 {% include boot.html %}
 <!-- 引入博文顶部样式 -->
 {% include post-title.html %}
+<!-- 侧边导航 -->
+<div class="scroll-nav-content"></div>
+<div class="post-content">
 <div class="markdown-body fadeInUp animated">
 
   {% if page.subtitle %}
@@ -29,15 +32,9 @@
       </div>
     {% endif %}
   {% endif %}
-  
-  <script src="/assets/js/scrollnav.min.umd.js"></script>
-  <script>
-    const ct = document.getElementsByClassName('markdown-body fadeInUp animated');  //".post-content"指向文章内容所在的div，需根据实际情况修改
-    scrollnav.init(ct);
-  </script>
-
   <!-- 文章内容 -->
   {{ page.content }}
+  </div>
   <!-- 引入share模块 -->
   {% include share.html %}
 </div>
@@ -53,6 +50,20 @@
 
 <!-- 引用wow.js的动画效果 -->
 <script src="/assets/js/wow.js"></script>
+
+<script src="/assets/js/scrollnav.min.umd.js"></script>
+  <script>
+    const content = document.querySelector('.post-content');  //".post-content"指向文章内容所在的div，需根据实际情况修改
+    const n = document.querySelector('.scroll-nav-content');
+    scrollnav.init(content,{
+      debug: false,
+      //easingStyle: 'linear',
+      insertTarget: n,
+      sections: 'h1',
+      subSections: 'h2',
+    });
+</script>
+
 <script>
     var wow = new WOW({
         boxClass: 'wow',
