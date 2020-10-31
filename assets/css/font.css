@@ -1,4 +1,4 @@
-/* ffad_matro字体 */
+/* ffad_matroå­—ä½“ */
 @font-face {
     font-family: 'ffad_matroregular';
     src: url('../fonts/ffad_matro/ffad_matro-webfont.eot'); /* IE9 Compat Modes */
@@ -110,6 +110,7 @@
 
 @font-face {
      font-family: "scrollNav";
-     src: url("../fonts/scrollNav/simhei.ttf") format("truetype");
      src: url("../fonts/scrollNav/times.ttf") format("truetype");
+     src: url("../fonts/scrollNav/FZDBSJW.TTF") format("truetype");
 }
+ 
